@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html{
+    border-style: none;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* INICIO BODY*/
+body{
+    width: 1440px;
+    height: 100vh;
+    font-family: 'Noto Sans', sans-serif, 'Roboto';
+}
+/* INICIO NAV*/
+nav{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    width: 1440px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #2A2F42;
+}
+
+.nav-logo{
+    position: absolute;
+    width: 170px;
+    height: 23.89px;
+    left: -8px;
+    top: 23px;
+}
+
+.nav-links{
+    position: absolute;
+    width: 682px;
+    height: 32px;
+    left: 820px;
+    top: 24px;
+}
+
+button{
+    background-color: #EFEBE8;
+    width: 183px;
+    height: 48px;
+    border-radius: 10px;
+    border-color: #2A2F42;
+    border: 2px solid;
+    font-family: 'Noto Sans', sans-serif, 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+button:hover{
+    background-color: #2A2F42;
+    width: 183px;
+    height: 48px;
+    border-radius: 10px;
+    border-color: #EFEBE8;
+    border: 2 px solid;
+    font-family: 'Noto Sans', sans-serif, 'Roboto';
+    font-style: normal;
+    color: #EFEBE8;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+input{
+    font-family: 'Noto Sans', sans-serif, 'Roboto';
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px;
+    color: #EFEBE8;
+    width: 402px;
+    height: 48px;
+    background-color: #2A2F42;
+    border-radius: 10px;
+}
+
+input:focus{
+    font-family: 'Noto Sans', sans-serif, 'Roboto';
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EFEBE8;
+    width: 402px;
+    height: 48px;
+    background: #2A2F42;
+    border: solid;
+    border-color: #FF8C46;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 3px #FF8C46;
+}
+
+::placeholder{
+    font-family: 'Noto Sans', sans-serif, 'Roboto';
+    left: 3.98%;
+    right: 43.53%;
+    top: 22.92%;
+    bottom: 27.08%;
+
+    /* Input_Label */
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #EFEBE8;
+    opacity: 0.5;
+}
+
+label{
+    width: 80px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2A2F42;
+}
+
+a{
+    text-decoration: none;
+    color: #EFEBE8;
+    margin-left: 38px;
+}
+
+a:hover{
+    color:#FF8C46
+}
+
+.section1{
+    background-image:url("./Assets - Projeto 7 (WebDev)/Jordan_1_Obsidian.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: static;
+    width: 1440px;
+    height: 100vw;
+    left: 0px;
+    top: 70px;
+}
+
+.section2{
+    width: 1440px;
+    height: 936px;
+    left: 0px;
+    top: 1024px;;
+}
+
+section{
+    background-color: #EFEBE8;
+}
+
+.section3{
+    position: absolute;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+    width: 1440px;
+    height: 877px;
+    left: 0px;
+    top: 1960px;
+    background-color: #68B2F6;
+
+}
+
+footer{
+    position: absolute;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    width: 1440px;
+    height: 116px;
+    left: 0px;
+    top: 2837px;
+
+    /* Obsidian Blue UNC */
+
+    background: #2A2F42;
+}
+
+h1{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    /* or 112% */
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.03em;
+}
+
+h2{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 44px;
+    /* identical to box height, or 105% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    display: flex;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 40px;
+    /* identical to box height, or 154% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.h3S1{
+    display: flex;
+    text-align: left;
+    margin-bottom: 36px;
+}
+
+h4{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+}
+
+h5{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #EFEBE8;
+}
+
+p{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    display: inline;
+    align-items: center;
+
+    /* Obsidian Blue UNC */
+
+    color: #2A2F42;
+}
+
+.text1{
+    position: absolute;
+    width: 234px;
+    height: 40px;
+    left: 153px;
+    top: 166px;    
+    color: #EFEBE8;
+}
+
+.text2{
+    position: absolute;
+    width: 1190px;
+    height: 144px;
+    left: 145px;
+    top: 206px;
+    color: #EFEBE8;
+}
+
+.buttons1{
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin-right: 20px;
+
+    width: 382px;
+    height: 48px;
+    left: 150px;
+    top: 440px;
+
+}
+
+.botao1{
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.botao2{
+    margin-right: 20px;
+    margin-top: 20px;
+    }
+
+.text-reviews{
+    position: absolute;
+    width: 102px;
+    height: 40px;
+    left: 669px;
+    top: 1108px;
+    color: #FF8C46;
+}
+
+.text-saibamais{
+    position: absolute;
+    width: 713px;
+    height: 44px;
+    left: 363px;
+    top: 1148px;
+    color: #68B2F6;
+}
+
+.jordan1unc{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 728px;
+    top: 1247px;
+}
+
+.Jordan-1-UNC{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 32px;
+    top: 1247px;
+    color: #68B2F6;
+}
+
+.paragrafo1{
+    position: absolute;
+    width: 678px;
+    height: 96px;
+    left: 32px;
+    top: 1302px;
+}
+
+.section-2-colums{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px;
+
+    position: absolute;
+    width: 675px;
+    height: 272px;
+    left: 32px;
+    top: 1438px;
+}
+
+.section-2-row{
+    /* Auto Layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-bottom: 0px;
+
+    position: static;
+    width: 650px;
+    height: 99px;
+    left: 0px;
+    top: 0px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 83px;
+}
+
+.section-2-row2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin-top: 83px;
+
+    position: static;
+    width: 650px;
+    height: 90px;
+    left: 0px;
+    top: 182px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 83px;
+}
+
+.logo-section2{
+    margin-right: 20px;
+}
+
+.h4s2{
+    color: #68B2F6;
+}
+
+.h2S3{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: stretch;
+    color: #2A2F42;
+}
+
+.formularios{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+    align-content: center;
+    margin-bottom: 215px;
+}
+
+.textoformulario{
+    width: 379px;
+    height: 236px;
+    left: 0px;
+    top: 0px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+}
+
+.formularios2{
+    /* Auto Layout */
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+}
+
+.botaoenviar{
+    position: static;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: stretch;
+    align-self: flex-end;
+    margin-right: 32px;
+}
+
+
+
+.email{
+    display: flex;
+    flex-direction: column;
+    position: static;
+    width: 402px;
+    height: 78px;
+    left: 0px;
+    top: 0px;
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 32px 32px;
+
+}
+
+.marca{
+    display: flex;
+    flex-direction: column;
+    position: static;
+    width: 402px;
+    height: 80px;
+    left: 0px;
+    top: 110px;
+    
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 32px 32px;
+}
+
+.modelo{
+    display: flex;
+    flex-direction: column;
+    position: static;
+    width: 402px;
+    height: 80px;
+    left: 0px;
+    top: 222px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 2;
+    align-self: center;
+    flex-grow: 0;
+    margin: 0px 32px 32px;
+}
+
+.copyright{
+    width: 511px;
+    height: 32px;
+    left: 464px;
+    top: 2929px;
+    margin-left: 400px;
+}
+
+.sociais{
+    display: inline-flex;
+    width: 248px;
+    height: 50px;
+    left: 1160px;
+    top: 2720px;
+    margin-right: 100px;
+}
